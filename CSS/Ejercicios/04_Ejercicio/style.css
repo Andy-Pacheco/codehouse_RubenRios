@@ -1,0 +1,55 @@
+h1 {
+    color: teal;
+}
+h2 {
+    color: blue;
+}
+.azul {
+    color: blue;
+}
+.amarillo {
+    color: orange;
+    font-weight: bold;
+}
+.verde {
+    color: green;
+}
+.rojo {
+    color: red;
+    font-weight: bold;
+}
+.gris {
+    color: grey
+}
+.naranja {
+    color: peru ;
+}
+.subrayado {
+    color: red;
+    text-decoration: underline;
+}
+.morado {
+    color: purple;
+}
+.fucsia {
+    color: fuchsia;
+}
+table {
+    border-collapse: collapse;
+}
+table td, table th {
+    border: 1px solid black;
+    border-left: white;
+    padding: 5px;
+}
+.italic {
+    font-style: italic;
+}
+#verdeunder {
+    text-decoration: underline ;
+    color: green;
+}
+
+#amarifino {
+    color: orange;
+}
