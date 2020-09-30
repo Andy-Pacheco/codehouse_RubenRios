@@ -1,0 +1,23 @@
+body{
+    color:blue;
+    background-color: lightblue;
+}
+h1{
+    color:red;
+}
+h2{
+    color:maroon;
+}
+span{
+    color:green;
+}
+.bold{
+    font-weight: bold;
+    color: blue;
+    font-size: large;
+}
+.black{
+    background-color: black;
+    color:white;
+    font-style: italic;
+}

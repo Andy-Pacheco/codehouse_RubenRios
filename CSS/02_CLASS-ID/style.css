@@ -1,0 +1,18 @@
+.colorAzul {
+    color: blue;
+}
+
+.contenedorAzul{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.contenedorRojo {
+    width: 250px;
+    height: 150px;
+    background-color: red;
+}
+#colorVerde {
+    color: green;
+}
