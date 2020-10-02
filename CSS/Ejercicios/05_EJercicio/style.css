@@ -1,0 +1,39 @@
+h1 {
+
+}
+
+.uno {
+    font-size: 150%;
+}
+
+.dos {
+    font-size: 130%;
+}
+
+.tres {
+    font-size: 110%;
+}
+
+.cuatro {
+    font-size: 90%;
+}
+
+.cinco {
+    font-size: 70%;
+}
+
+.em {
+    font-size: 2em;
+}
+
+a {
+    font-size: 0.5em;
+}
+
+.rem {
+    font-size: 1rem;
+}
+
+.cm {
+    font-size: 1cm;
+}

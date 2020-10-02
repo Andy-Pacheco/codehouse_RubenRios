@@ -1,0 +1,53 @@
+.mm {
+    font-size: 5mm;
+}
+
+.cm {
+    font-size: 1cm;
+}
+
+.in {
+    font-size: 1in;
+}
+
+.pt {
+    font-size: 10pt;
+}
+
+.pc {
+    font-size: 1pc;
+}
+
+.px {
+    font-size: 10px;
+}
+
+.porcentaje {
+    font-size: 100%;
+}
+
+.padre {
+    background-color: salmon;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.hijo {
+    background-color: #55e5ab;
+    width: 100px;
+    height: 100px;
+}
+
+.em {
+    font-size: 1em;
+}
+
+.rem {
+    font-size: 1rem;
+}
+
+.rem2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}

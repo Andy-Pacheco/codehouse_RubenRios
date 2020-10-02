@@ -1,0 +1,71 @@
+header {
+    background-color: blue;
+    border: 7px red double;
+    height: 100px;
+}
+
+.green {
+    margin-top: 30px;
+    background-color: green;
+    height: 500px;
+}
+
+.verde {
+    width: 200px;
+    height: 200px;
+    border: 1px white solid;
+}
+
+.turquesa {
+    background-color: turquoise;
+    height: 500px;
+}
+
+.tomate {
+    background: rgb(177, 48, 48);
+    height: 200px;
+    width: 35%;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+#ultimacaja {
+    margin-top: 25px;
+    background-color:rgb(60, 134, 60);
+    height: 200px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.verde2 {
+    width: 20%;
+    height: 95%;
+    background-color: green;
+    border: 1px black solid;
+}
+
+.fucsia {
+    background-color: fuchsia;
+    height: 3%;
+    width: 60%;
+    border: 1px black solid;
+}
+
+p {
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+.verde3{
+    height: 25%;
+    width: 90px;
+    background-color: green;
+    border: 1px black solid;
+}
+
+.fucsia2 {
+    height: 75%;
+    width: 90px;
+    background-color: fuchsia;
+    border: 1px solid black;
+}

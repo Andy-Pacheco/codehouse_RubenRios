@@ -1,0 +1,21 @@
+.clave{
+    color:blue;
+}
+
+.decimal{
+    color: rgba(125, 65, 88, 1);
+}
+
+.alpha-fondo  {
+    background-color: rgba(65, 101, 5, 1);
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.porcentaje{
+    color: rgb(100%, 100%, 100%);
+}
+.hexadecimal {
+    color: #ffff00;
+}
