@@ -1,21 +1,65 @@
-.clave{
-    color:blue;
+.clave {
+    /* Propiedad/atributo: color */
+    /* palabra clave: blue */
+    color: blue;
 }
 
-.decimal{
-    color: rgba(125, 65, 88, 1);
+
+/* cada color tiene una escala que va desde 0(ausencia del color) hasta el 255(maximo del color) */
+
+
+/* .decimal {
+     color: rgb(161, 57, 108); 
+
+
+ color: rgb(255, 255, 255) 
+ }  */
+
+
+/* ALPHA- OPACIDAD : Va desde 0 hasta el 1 */
+
+.decimal {
+    color: rgba(235, 57, 125, 1)
 }
 
-.alpha-fondo  {
+.alpha-fondo {
     background-color: rgba(65, 101, 5, 1);
     border: 2px solid black;
     width: 200px;
     height: 200px;
 }
 
-.porcentaje{
-    color: rgb(100%, 100%, 100%);
+
+/* 0%,100% */
+
+.porcentaje {
+    /* color: rgb(0, 255, 255); */
+    color: rgb(0%, 50%, 100%);
 }
+
+
+/* 
+#ffff00
+#-> ff:rojo, ff:verde,00:azul
+
+notacion decimal :      0 1 2 3 4 5 6 7 8 9 10  11  12  13  14 15
+notacion hexadecimal:   0 1 2 3 4 5 6 7 8 9 A   B   C   D   E  F
+
+# ff -> (15X16) + (15X1) = 255-> color en rgb
+# ff -> (15X16) + (15X1) = 255-> color en rgb
+# 00 -> (0X16) + (0X1) = 0-> color en rgb
+color: rgb (255,255,0)
+
+#45a5bb
+rgb(69,165,187)
+#-> 45:rojo, a5:verde, bb:azul
+
+# 45 -> (4X16) + (5X1) = 69-> color en rgb
+# a5 -> (10X16) + (5X1) = 165-> color en rgb
+# bb -> (11X16) + (11X1) = 187-> color en rgb
+*/
+
 .hexadecimal {
+    /* color: rgb(255, 255, 0); */
     color: #ffff00;
 }

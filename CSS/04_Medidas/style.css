@@ -1,25 +1,53 @@
-.mm {
-    font-size: 5mm;
+/* body {
+    font-size: 20px
+} */
+
+p {
+    font-size: 90%;
 }
+
+
+/* 
+Por ejemplo: el parrafo -> <p></p> por defecto el navegador le da un font-size de 16px
+*/
+
+
+/* 4.2mm = 16px */
+
+.mm {
+    font-size: 16mm;
+}
+
+
+/* 0.43cm = 16px */
 
 .cm {
     font-size: 1cm;
 }
 
+
+/* 1in = 2.54cm */
+
 .in {
     font-size: 1in;
 }
 
+
+/* 1pt:1/72 pulgada, 0.35mm */
+
 .pt {
-    font-size: 10pt;
+    font-size: 1pt;
 }
+
+
+/* 1pc: 12pt, 4.23mm */
 
 .pc {
     font-size: 1pc;
 }
 
 .px {
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .porcentaje {
@@ -27,27 +55,50 @@
 }
 
 .padre {
-    background-color: salmon;
+    background-color: rgb(255, 65, 81);
     border: 1px solid black;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 
 .hijo {
     background-color: #55e5ab;
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
 }
+
+
+/* Hereda el tamaño por defecto del navegador O que tenga el documento style.css */
 
 .em {
     font-size: 1em;
 }
 
+
+/*  */
+
 .rem {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1rem;
 }
+
+
+/* Hereda el tamaño segun el estilo de letra  */
 
 .rem2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
 }
+
+.ejemplo {
+    font-size: 2em;
+}
+
+
+/* Web Semántica
+Añade etiquetas para manejar la Web semántica (Web 3.0): header, footer, article, nav, time (fecha del contenido), link  (tipo de contenido que se enlaza).
+Estas etiquetas permiten describir cuál es el significado del contenido. Por ejemplo su importancia, su finalidad y las relaciones que existen. No tienen especial impacto en la visualización, se orientan a buscadores.
+Los buscadores podrán indexar e interpretar esta meta información para no buscar simplemente apariciones de palabras en el texto de la página.
+Permite incorporar a las páginas ficheros RDF / OWL (con meta información) para describir relaciones entre los términos utilizados.
+Además, ofrece versatilidad en el manejo y animación de objetos simples, imágenes etc.
+ */

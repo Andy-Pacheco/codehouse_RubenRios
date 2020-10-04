@@ -1,0 +1,70 @@
+/* Como modificar el color de 
+una/todas las etiquetas */
+
+
+/* h1 {
+    color: red;
+} */
+
+.colorRojo {
+    color: red;
+    text-align: center;
+}
+
+
+/*Crear una clase
+Importante el PUNTO 
+dentro de las llaves escribo 1 o agrupo una
+ serie de  atributos de css
+*/
+
+.colorAzul {
+    color: blue;
+}
+
+.ContenedorAzul {
+    /* ancho */
+    width: 150px;
+    /* alto */
+    height: 150px;
+    /* Cambiar color de fondo */
+    background-color: blue;
+}
+
+.ContenedorRojo {
+    width: 250px;
+    height: 150px;
+    background-color: red;
+}
+
+
+/* Utilizamos la almohadilla */
+
+#colorVerde {
+    color: green;
+}
+
+
+/* Aplicar estilos css a una/todas etiquetas */
+
+h1 {
+    color: red;
+}
+
+#colorVerde {}
+
+.contenedorUnico {}
+
+
+/* Aplicar estilos css a una/mas clases */
+
+.colorX {
+    color: black;
+}
+
+
+/* Aplicar estilos css a un id(identificador unico) */
+
+#idUnico {
+    color: coral;
+}
