@@ -1,0 +1,44 @@
+.color {
+    color: red;
+}
+
+.f-family {
+    font-family: 'Lobster', cursive;
+}
+
+.size {
+    font-size: 26px;
+}
+
+.weight {
+    font-weight: 900;
+}
+
+.fstyle {
+    font-style: oblique;
+}
+
+.fvariant {
+    color: blue;
+    font-variant: inherit;
+}
+
+.lineheight {
+    line-height: 50px;
+}
+
+.textalign {
+    text-align: center;
+}
+
+.textdecor {
+    text-decoration: overline;
+}
+
+.texttrans {
+    text-transform: uppercase;
+}
+
+.testindent {
+    text-indent: 50%;
+}

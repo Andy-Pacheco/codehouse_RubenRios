@@ -1,0 +1,40 @@
+.azul {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.central {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative; /* mueve elemento desde la posición que le indiquemos hacia el lado opuesto*/
+                        /* siempre desde el flujo de DOM, teniendo en cuenta los elementos alrededor del mismo */
+
+}
+
+.amarillo {
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+}
+
+.central2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.central3 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: fixed;
+    top: 1px;
+}

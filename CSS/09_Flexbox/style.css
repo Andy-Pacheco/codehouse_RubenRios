@@ -1,0 +1,21 @@
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.none {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: none;
+}
+
+.hidden {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    visibility: hidden;
+}

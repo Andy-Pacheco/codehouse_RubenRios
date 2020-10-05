@@ -1,0 +1,38 @@
+.margin {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin: 29px;
+    margin: 25px 50px; /*Y, X*/
+    margin: 1px 2px 3px 4px /* ^, >, v, < */
+}
+
+.padre {
+    width: 450px;
+    height: 450px;
+    background-color: #ab64fa;
+}
+
+.hijo {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(23, 44, 100, 1);
+    padding-top: 86px;
+    padding-left: 154px;
+    padding: 1px 2px 3px 4px; /*sentido horario*/
+}
+
+.container1 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.container2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

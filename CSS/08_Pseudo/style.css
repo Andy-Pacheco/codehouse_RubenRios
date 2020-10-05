@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'father';
+    src: url('father.ttf');
+}
+
+h1 {
+    color: fuchsia;
+    font-family: 'father';
+}
+
+.contenedor1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.contenedor1:hover {
+    background-color: brown;
+}
+
+.first::first-line {
+    color: red;
+}
+
+.letter::first-letter {
+    font-weight: bold;
+    font-size: 50px;
+    border: 2px black solid;
+    font-family: 'father';
+    background-color: grey;
+}
