@@ -1,0 +1,47 @@
+body {
+    width: 50%
+}
+
+h1 {
+    border:2px black solid;
+    text-align: center;
+}
+
+#uno {
+    border-top: 8px red double;
+    border-left: 8px red double;
+
+}
+
+#dos {
+    border-top: 5px blue dashed;
+    border-bottom: 10px blue dashed;
+    border-left: 20px green dashed;
+    border-right: 8px green dashed;
+}
+
+#tres {
+    border: 15px yellow double;
+    border-left: 6px yellow double;
+    border-right: 6px yellow double;
+}
+
+#cuatro {
+    border-top: 15px rgb(0, 250, 0) solid;
+    border-bottom: 15px blue solid;
+}
+
+#cinco {
+    border-top: 25px red dashed;
+    border-bottom: 25px black dotted;
+    border-left: 25px black dashed;
+    border-right: 25px black dashed;
+
+}
+
+#seis {
+    border-bottom: 13px black dashed;
+    border-top: 10px black dotted;
+    border-left: 25px red double;
+    border-right: 25px black dashed;
+}
