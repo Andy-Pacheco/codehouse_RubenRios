@@ -1,0 +1,121 @@
+body{
+    width: 63%;
+}
+
+h1 {
+    align-self: flex-end;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 20%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0%;
+}
+
+li {
+    margin: 10%;
+    font-size: 90%;
+}
+
+.ps {
+    background-image: url("ps4.jpg");
+    height: 550px;
+    align-content: center;
+}
+
+.centro {
+    color: white;
+    text-align: center;
+    margin-left: 3%;
+    position: relative;
+    top:40%
+}
+
+.negro {
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    width: 40%;
+    height: 60px;
+}
+
+.verde {
+    background-color: green;
+    width: 45%;
+    height: 60px;
+    font-size: 13px;
+}
+
+.textcentro {
+    position: relative;
+    top: 30%
+}
+
+.textcentro.green {
+    top: 40%;
+}
+
+.iconos {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    text-align-last: center;
+    justify-content: center;
+}
+h2 {
+    color: green;
+    font-size: 125%;
+}
+
+#nave {
+}
+
+#megusta {
+}
+
+#config {
+}
+
+#estrella {
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+.letrita {
+    color: grey;
+    font-size: 70%;
+    text-align: center;
+}
+
+.foto {
+    width: 250px;
+}
+
+.recentwork {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.iconos.dos {
+    margin-left: 0;
+    text-align-last: left;
+}
+
+.play {
+    width: 50px;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
