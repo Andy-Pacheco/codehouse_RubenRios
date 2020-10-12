@@ -63,27 +63,19 @@ li {
 
 .iconos {
     display: flex;
-    margin-left: 10%;
+    margin-left: 6%;
     margin-right: 10%;
-    margin-top: 5%;
     text-align-last: center;
     justify-content: center;
 }
+
+.uno{
+    margin-top: 8%;
+}
+
 h2 {
     color: green;
     font-size: 125%;
-}
-
-#nave {
-}
-
-#megusta {
-}
-
-#config {
-}
-
-#estrella {
 }
 
 img {
@@ -106,11 +98,6 @@ img {
     margin-left: 10%;
 }
 
-.iconos.dos {
-    margin-left: 0;
-    text-align-last: left;
-}
-
 .play {
     width: 50px;
     height: auto;
@@ -118,4 +105,20 @@ img {
 
 .bold {
     font-weight: bold;
+    width: max-content;
+}
+
+.playimg {
+    width: 420%;
+    height: auto;
+}
+
+.dos {
+    margin-right: 16%;
+    margin-left: 0%;
+    text-align-last: left;
+}
+
+.loultimo {
+    width: max-content;
 }
