@@ -1,0 +1,116 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('./images/images/bg_1.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner div{
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+header img {
+    width: 200px;
+}
+
+.banner button {
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.banner button:hover {
+    background-color: white;
+    color: black;
+}
+
+.segunda-parte {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.segunda-parte h4 {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.segunda-parte p {
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.segunda-parte div {
+    width: 20%;
+    text-align: center;
+}
+
+.segunda-parte img {
+    width: 15%;
+    margin: 10%
+}
+
+.tercera-parte {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(209, 188, 161, 0.185);
+}
+
+.contenedor {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.tercera-parte p {
+    color: rgba(0, 0, 0, 0.4); 
+}
+
+.tercera-parte div {
+    text-align: center;
+}
+
+.tercera-parte h2 {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.card {
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext {
+    font-size: 90%;
+    color: rgba(0, 0, 0, 0.315);
+    margin: 0;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
