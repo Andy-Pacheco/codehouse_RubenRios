@@ -1,0 +1,32 @@
+.responsive {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+.responsive2 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+.padre {
+    display: flex;
+}
+
+/* Para aplicar el diseño responsive se deben aplicar los media querys */
+
+/* Estamos diciéndole a la web que me aplique los estilos que hay dentro del media query
+cuando el width del viewpot sea MENOR a 900px*/
+
+@media (max-width: 900px) {
+    .responsive {
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 900px) {
+    .responsive {
+        background-color: green;
+    }
+}

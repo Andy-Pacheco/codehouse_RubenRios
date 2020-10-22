@@ -115,7 +115,7 @@ button h3 {
 }
 
 .param {
-    width: 30vw;
+    width: 30%;
 }
 
 .param p {
@@ -198,6 +198,7 @@ button h3 {
 
 .texto ul li:before {
   content: '✓';
+  margin-right: 15px;
   color: #ff8b00;
 }
 
@@ -343,6 +344,10 @@ input {
 
 .copy {
     color: white;
+}
+
+span {
+    color: grey;
 }
 
 
