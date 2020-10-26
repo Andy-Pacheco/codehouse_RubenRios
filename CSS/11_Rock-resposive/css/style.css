@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+}
+
+.flex-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #8f5b3e;
+    padding: 27px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.background-fixed{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    background-color: rgba(3, 3, 3, 0.514);
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo {
+    width: 30%;
+
+}
+
+nav .links {
+    width: 70%;
+}
+
+nav .links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+nav .logo img {
+    width: 15%;
+}
+
+nav .links ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/60/f2/19/60f219596f1855bbbd10c11a6f31bda8.jpg');
+    background-position: top !important;
+}
+
+.banner .text-banner {
+    height: 100%;
+    color: white;
+}
+
+.banner .text-banner h1 {
+    font-size: 57px;
+}
+
+.text-banner p {
+    text-transform: uppercase;
+}
+
+.title {
+    height: 30vh;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.title h2 {
+    font-size: 45px;
+}
+
+.title hr {
+    width: 70%;
+}
+
+.title p {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.album-cards {
+    padding: 80px 0;
+}
+
+.card {
+    width: 40%
+}
+
+.card img {
+    width: 80%;
+}
+
+.card h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: #fe9410;
+    text-transform: uppercase;
+}
+
+.card p {
+    font-size: 22px;
+    word-spacing: 10px;
+}
+
+.info {
+    height: 40vh;
+    background-image: url("../images/p1.jpg") ;
+}
+
+.info-text {
+    height: 100%;
+    color: white;
+    padding: 0 20%;
+    text-align: justify;
+}
+
+.info-text h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 60px;
+    font-weight: 800;
+}
+
+.info-text p {
+    font-size: 35px;
+}
+
+.img-hover {
+    background-image: url("../images/p1.jpg");
+    height: 293px;
+    width: 80%;
+    background-size: cover;
+}
+
+.img-hover:hover {
+    background-image:url("../images/1.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+.info-song {
+    background-image: url("https://musicodiy.cdbaby.com/wp-content/uploads/2016/02/shutterstock_268651067.jpg");
+    padding: 60px 0;
+}
+
+.card-song {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+.title-footer {
+    height: 100px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px){
+    .banner .text-banner {
+        padding: 0 90px;
+        text-align: center;
+    }
+
+    .album-cards {
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+
+    .album-cards .card {
+        margin-bottom: 25px;
+    }
+    
+    .card {
+        width: 40%;
+    }
+
+    .info-text h2 {
+        font-size: 30px;
+        line-height: 15px;
+    }
+    
+    .info-text p {
+        font-size: 20px;
+    }
+
+    .containers {
+        flex-direction: column;
+    }
+
+    .container {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+    nav {
+        position: unset;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+}
