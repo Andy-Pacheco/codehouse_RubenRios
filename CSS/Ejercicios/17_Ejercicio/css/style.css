@@ -219,12 +219,60 @@ footer h2 {
 
 @media (max-width: 767px){
 
-    .nav {
+    nav {
         position: absolute;
     }
+    
     .primera-parte {
         flex-direction: column;
         height: 100%;
         padding-top: 20%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards .card {
+        width: 50%;
+    }
+
+    .butones {
+        left: 0; 
+        width: 100%;
+    }
+
+    .corto {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    nav ul{
+        width: 80%;
+    }
+    
+    .segunda-parte .cards {
+        width: 100%;
+    }
+    
+    .tercera-parte .card {
+        width: 80%;
+    }
+    
+    .tercera-parte .card p{
+        font-size: 100%;
+    }
+
+    footer .butones {
+        flex-direction: column;
+    }
+
+    footer p{
+        width: 80%;
+    }
+
+    .butones button{
+        margin-bottom: 10px;
     }
 }
