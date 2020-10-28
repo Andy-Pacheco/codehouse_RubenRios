@@ -11,6 +11,11 @@ nav {
     width: 100%;
 }
 
+nav ul a:hover {
+    color:  rgb(128, 179, 238);
+    font-size: 80%;
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -22,6 +27,7 @@ nav ul a {
     color: white;
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
+    transition: all 1s ease;
 }
 
 .centrado {
@@ -38,12 +44,14 @@ nav ul a {
     border-radius: 10px;
     box-shadow: 10px;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+    transition: all 1s ease-in-out;
 }
 
 .button:hover {
     background-color:white;
     color:black;
     cursor: pointer;
+    transform: scale(1.2) rotate(360deg);
 }
 
 .primera-parte {
@@ -55,8 +63,13 @@ nav ul a {
 }
 
 .rosco img{
-    width: 80%;
+    width: 60%;
     border-radius: 50%;
+    transition: all 1s ease;
+}
+
+.rosco img:hover {
+    width: 80%;
 }
 
 .primera-parte .text {
@@ -133,26 +146,62 @@ span {
 
 .cuatro {
     background-image: url("../images/pic01.jpg");
+    transition: all 2s cubic-bezier(1, -0.5, 0.5, 1);
+}
+
+.cuatro:hover {
+    transform: rotateY(360deg);
+    background-image: url("../images/pic02.jpg");
 }
 
 .cinco {
     background-image: url("../images/pic02.jpg");
+    transition: all 2s cubic-bezier(1, -0.5, 0.5, 1);
+}
+
+.cinco:hover {
+    transform: rotateY(360deg);
+    background-image: url("../images/pic03.jpg");
 }
 
 .seis {
     background-image: url("../images/pic03.jpg");
+    transition: all 2s cubic-bezier(1, -0.5, 0.5, 1);
+}
+
+.seis:hover {
+    transform: rotateY(360deg);
+    background-image: url("../images/pic04.jpg");
 }
 
 .siete {
     background-image: url("../images/pic04.jpg");
+    transition: all 2s cubic-bezier(1, -0.5, 0.5, 1);
+}
+
+.siete:hover {
+    transform: rotateY(360deg);
+    background-image: url("../images/pic05.jpg");
 }
 
 .ocho {
     background-image: url("../images/pic05.jpg");
+    transition: all 2s cubic-bezier(1, -0.5, 0.5, 1);
+}
+
+.ocho:hover {
+    transform: rotateY(360deg);
+    background-image: url("../images/pic06.jpg");
 }
 
 .nueve {
     background-image: url("../images/pic06.jpg");
+    transition: all 2s cubic-bezier(1, -0.5, 0.5, 1);
+}
+
+.nueve:hover {
+    transform: rotateY(360deg);
+    background-image: url("../images/pic01.jpg");
 }
 
 .tercera-parte .cards {
@@ -234,7 +283,7 @@ footer h2 {
     }
 
     .cards .card {
-        width: 50%;
+        width: 60%;
     }
 
     .butones {

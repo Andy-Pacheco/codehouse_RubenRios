@@ -1,0 +1,101 @@
+.rojo {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    /*transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s; */
+    transition: all 2s ease ;
+}
+
+.rojo:hover {
+    background-color: blue;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.change-img {
+    height: 200px;
+    width: 200px;
+    background-image: url("../../Ejercicios/17_Ejercicio/images/pic01.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: background-image 2s ease;
+}
+
+.change-img:hover{
+    background-image: url("../../Ejercicios/17_Ejercicio/images/pic06.jpg");
+}
+
+.button {
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    width: 100px;
+    height: 70px;
+    transition: all 1s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 99, 71, 0.712);
+}
+
+.padre {
+    padding: 50px 0;
+    border: 2px solid black;
+}
+
+.padre:hover .translate {
+    transform: translate(1000px);
+    /*transform: scale(1.5);*/
+}
+
+.hijo1 {
+    background-color: rgb(122, 233, 122);
+    height: 50px;
+    width: 100px;
+    margin: 10px 0;
+    transition: all 5s ease;
+}
+
+.hijo2 {
+    background-color: rgb(233, 203, 69);
+    height: 50px;
+    width: 100px;
+    margin: 10px 0;
+    transition: all 5s ease-in;
+}
+
+.hijo3 {
+    background-color: rgb(189, 122, 233);
+    height: 50px;
+    width: 100px;
+    margin: 10px 0;
+    transition: all 5s ease-out;
+}
+
+.hijo4 {
+    background-color: rgb(122, 220, 233);
+    height: 50px;
+    width: 100px;
+    margin: 10px 0;
+    transition: all 5s ease-in-out;
+}
+
+.hijo5 {
+    background-color: rgb(233, 122, 122);
+    height: 50px;
+    width: 100px;
+    margin: 10px 0;
+    transition: all 5s linear;
+}
+
+.hijo6 {
+    background-color: rgb(219, 231, 54);
+    height: 50px;
+    width: 100px;
+    margin: 10px 0;
+    transition: all 5s cubic-bezier(1, -0.5, 0.5, 1);
+}
