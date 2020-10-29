@@ -1,0 +1,125 @@
+ .height .col {
+    height: 100px;
+}
+
+.green {
+    background-color:green;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: rgb(248, 28, 65);
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+.greenyellow {
+    background-color: greenyellow;
+}
+
+.darkblue {
+    background-color: darkblue;
+    color: white;
+}
+
+.blue {
+    background-color: rgb(45, 123, 240);
+    color: white;
+}
+
+.dos .col {
+    background-color: unset;
+}
+
+.blueborder{
+    border:3px rgb(73, 73, 180) solid;
+}
+
+.orangeborder{
+    border:3px orange solid;
+}
+
+.purpleborder{
+    border:3px rgb(131, 60, 131) solid;
+}
+
+.yellowborder{
+    border:3px yellow solid;
+}
+
+.pinkborder{
+    border:3px pink solid;
+}
+
+.turquoiseborder {
+    border:3px turquoise solid;
+}
+
+.greenyellowborder {
+    border:3px greenyellow solid;
+}
+
+.tres .col{
+    text-align:center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-gradient1 {
+    background-image: linear-gradient(red, pink, yellow, brown, blue);
+}
+.bg-gradient2 {
+    background-image: linear-gradient(to bottom right, green, rgb(255, 4, 129));
+}
+.bg-gradient3 {
+    background-image: linear-gradient(to right, red, blue);
+}
+
+.bg-gradient4 {
+    background-image: linear-gradient(to right, rgb(0, 255, 0), rgb(255, 0, 0));
+}
+
+.bg-gradient5 {
+    background-image: linear-gradient(to right, rgb(251, 255, 0), blue);
+}
+
+.bg-gradient6 {
+    background-image: linear-gradient(to right, rgb(255, 174, 0), rgb(234, 0, 255));
+}
+
+.bg-gradient7 {
+    background-image: linear-gradient(to right, rgb(0, 255, 170), rgb(255, 174, 0));
+}
+
+.cinco .col {
+    text-align: center;
+}
+
+.cinco img{
+    width: 100px;
+    height: 100px;
+}
+
+.seis .col {
+    opacity: 20%;
+}
+
+.shad {
+    box-shadow: 20px 20px 10px grey;
+}

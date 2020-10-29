@@ -1,0 +1,24 @@
+.h50{
+    height: 50px;
+}
+
+.col-1{
+    background-color: rgb(126, 71, 255);
+    border: 1px solid black;
+}
+
+.col-2{
+    background-color: tomato;
+    border: 1px solid black;
+}
+
+.col-3{
+    background-color: rgb(86, 255, 71);
+    border: 1px solid black;
+
+}
+
+.col-4{
+    background-color: rgb(71, 172, 255);
+    border: 1px solid black;
+}
