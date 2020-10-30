@@ -1,0 +1,64 @@
+.bg-darkblue {
+    background-color: rgb(30, 40, 77);
+}
+
+.bg-pinkdog {
+    height: 70vh;
+    background-image: url("../images/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-white {
+    height: 70vh;
+}
+
+.bg-salchicha{
+    background-image: url("../images/about.png");
+    height: 300px;
+    background-size: contain;
+}
+
+.card {
+    border: none;
+}
+
+.por2{
+    font-size: 200%;
+}
+.por3{
+    font-size: 300%;
+}
+
+.text-pink {
+    color: hotpink;
+}
+
+.centrado {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.centrado-c {
+    flex-direction: column;
+}
+
+.h100{
+    height: 100%;
+}
+
+.text-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 0px 25%;
+}
+
+.paw {
+    width: 64px;
+}
+
+.pt15{
+    padding-top: 15%;
+}

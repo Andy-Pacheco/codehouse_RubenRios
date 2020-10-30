@@ -2,6 +2,14 @@ body {
     margin: 0;
 }
 
+.lablezar {
+    font-family: 'Lalezar', cursive;
+}
+
+.balsami {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
 p{
     color: grey;
 }
@@ -25,8 +33,12 @@ p{
     flex-direction: column;
 }
 .navegador {
-    height: 60vh;
-    align-items: flex-end !important;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.btnnp {
+    padding:0 5px;
 }
 
 .vh50 {
@@ -49,12 +61,12 @@ select {
     border:none;
 }
 
-.bg-black {
+.bg-grey {
     background-color: rgb(59, 58, 63);
 }
 
 .white {
-    color: white;
+    color: white !important;
 }
 
 .pink {
@@ -68,6 +80,15 @@ select {
 .cartas-cortas .card {
     margin: 10%;
 }
+
+.estirada {
+    height: 550px;
+}
+
+.estirada p, .estirada h5{
+    margin: 30px 0;
+}
+
 .cartas-cortas {
     padding: 50px 0;
 }
@@ -86,7 +107,7 @@ select {
 
 .bg-marron {
     background-color: rgba(202, 187, 165, 0.26);
-    border
+    border: 1px solid tan;
 }
 
 .largo {
@@ -105,4 +126,23 @@ select {
 .cosas {
     height: 100%;
     justify-content: space-around;
+}
+
+.btn.btn-secondary  {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: 0 !important;
+}
+
+li{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+ul {
+    justify-content: center;
+}
+
+.instagrames.centradito {
+    flex-direction: row;
 }

@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.imagen{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uno {
+    background-image: url("https://musicodiy.cdbaby.com/wp-content/uploads/2016/02/shutterstock_268651067.jpg");
+}
+
+.dos, .cuatro {
+    background-image: url("https://i.pinimg.com/originals/60/f2/19/60f219596f1855bbbd10c11a6f31bda8.jpg");
+}
+
+.tres {
+    background-image: url("https://previews.123rf.com/images/borusikk/borusikk1704/borusikk170400016/76523970-guitarras-negras-y-grises-el%C3%A9ctricas-cl%C3%A1sicas-y-de-rock-en-el-fondo-de-cart%C3%B3n-%C3%A1spero-con-mucho-espacio-de-l.jpg");
+}
+
+.cinco {
+    background-image: url("https://i.pinimg.com/originals/07/65/35/0765351d185b018d5feebe8599b3aea5.jpg");
+}
+
+.text {
+    background-color: rgba(41, 40, 40, 0.877);
+    color: white;
+    height: 200px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
