@@ -61,4 +61,72 @@
 
 .pt15{
     padding-top: 15%;
+
+}
+
+.profile {
+    width:200px;
+}
+
+.smallgrey {
+    font-size: 80%;
+    color: grey;
+}
+
+.bg-greypaper{
+    background-image: url("../images/services_bg.png");
+}
+
+.card {
+    background-color: transparent;
+}
+
+.pad100{
+    padding: 100px 0;
+}
+
+.bg-perrete {
+    background-image: url("../images/adopt_img.png");
+    height: 70vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.adopt {
+    height: 100%;
+}
+
+.semibuton{
+    border-radius: 25px;
+    background-color: #34c0fd;
+    border-color: #34c0fd;
+}
+
+.bg-perretefeliz{
+    background-image: url("../images/review_bg.png");
+    height: 40vh;
+    background-position: center;
+}
+
+.bg-heart {
+    background-image: url("../images/valunteer_img.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.justify-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paddedsides{
+    padding: 5%;
+}
+
+.bg-footer {
+    background-image: url("../images/footer_bg.png");
+    height: 70vh;
 }
