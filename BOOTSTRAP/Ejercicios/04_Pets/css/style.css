@@ -7,6 +7,7 @@
     background-image: url("../images/banner_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 
 .bg-white {
@@ -90,6 +91,7 @@
     height: 70vh;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .adopt {
@@ -129,4 +131,52 @@
 .bg-footer {
     background-image: url("../images/footer_bg.png");
     height: 70vh;
+}
+
+.input-group-text{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.perrito {
+    width: 18rem;
+}
+
+@media (max-width: 575px){
+    .bg-footer{
+        padding-top: 20% !important;
+    }
+    
+    .profile{
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 767px){
+    .bg-footer{
+        padding-top: 15% !important;
+    }
+}
+
+@media (max-width: 991px){
+    .texttop{
+        width: 80%;
+    }
+
+    .bg-footer{
+        height: 100%;
+        padding-top: 10%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .perrito {
+        width: 80%;
+    }
+
+    .profile{
+        width: 300px;
+    }
+
 }
